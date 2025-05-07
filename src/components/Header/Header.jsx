@@ -7,7 +7,7 @@ import digo from '../../assets/img/digo.png'
 const Header = () => {
   return (
     <>
-      <div className='bg-[#018495] w-100% h-20 flex items-center justify-between'>
+      <div className='bg-[#018495] w-full h-20 flex items-center justify-between  relative z-20 '>
         <div className=' w-250 flex items-center justify-between ml-10' >
             <img src={logo} alt="" />
             <ul className='flex items-center justify-around  w-200 text-2xl text-white'>
