@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header"
 import Intro from "./components/Intro/Intro"
+import Section1 from "./components/Section1/Section1"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header/>
       <Intro/>
+      <Section1/>
     </>
   )
 }
